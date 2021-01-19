@@ -1,0 +1,70 @@
+body{
+    font-family:arial !important;
+}
+/*navigation coding start here*/
+.phone-navigation{
+    height:90px;
+}
+.fa-bars{
+    font-size:24px;
+}
+.navigation-list{
+    background-color:#02636c;
+    position:absolute;
+    height:300px;
+    top:90px;
+    left:0;
+    right:0;
+    display:none;
+}
+.phone-list{
+    margin-top:20px;
+}
+
+
+.computer-navigation{
+    height:100px;
+}
+.computer-li{
+    margin-right:30px;
+}
+/*navigation coding for the sm devices start here*/
+/*navigation coding ended here*/
+
+/*coding for the background-image start here*/
+.phone-bg-image{
+    background:url("../images/6.jpg") no-repeat center center;
+    background-size:100% 100%;
+    height:300px;
+}
+
+.computer-bg-image{
+    background:url("../images/6.jpg") no-repeat center center;
+    background-size:100%;
+    height:500px;
+}
+.mask{
+    background-color:rgb(29 24 24 / 65%);
+}
+.welcome-column{
+    background-color:#ec407acc;
+}
+/*coding for the background-image ended here*/
+
+/*coding for services start here*/
+@media screen and (max-width:767px){
+    .card-services{
+        margin-top:20px;
+    }
+    .card-img{
+        height:200px !important;
+        width:100% !important;
+    }
+}
+@media screen and (min-width:767px) and (max-width:2000px){
+    .card-img{
+        height:300px !important;
+        width:100% !important;
+    }
+}
+/*coding for services ended here*/
