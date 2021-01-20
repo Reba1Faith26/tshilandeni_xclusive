@@ -68,3 +68,39 @@ body{
     }
 }
 /*coding for services ended here*/
+
+/*about wrapper coding start here*/
+.about-wrapper{
+    background:url("../images/1.jpeg") no-repeat center center;
+    background-size:100% 100%;
+    height:600px;
+}
+.about-column{
+    background-color:hsla(186, 100%, 13%, 0.788);
+}
+@media screen and (max-width:767px){
+    .about-wrapper{
+        background:url("../images/1.jpeg") no-repeat center center;
+        background-size:100% 100%;
+        height:300px;
+    }
+}
+/*about wrapper coding ended here*/
+
+/*contact us coding start here*/
+.contact-wrapper{
+    background:url("../images/9.jpeg") no-repeat center center;
+    background-size:100% 100%;
+    height:350px;
+}
+.contact-column{
+    background-color:#02636cba;
+}
+@media screen and (max-width:767px){
+    .contact-wrapper{
+        background:url("../images/9.jpeg") no-repeat center center;
+        background-size:100% 100%;
+        height:300px;
+    }
+}
+/*contact us coding ended here*/
